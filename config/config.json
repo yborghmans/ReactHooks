@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hook-example-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hookExampleWp/HookExampleWpWebPart.js",
+          "manifest": "./src/webparts/hookExampleWp/HookExampleWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HookExampleWpWebPartStrings": "lib/webparts/hookExampleWp/loc/{locale}.js"
+  }
+}
